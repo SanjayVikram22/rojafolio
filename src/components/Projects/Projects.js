@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import emotion from "../../Assets/face.png";
 import emotion1 from "../../Assets/fpga.png";
+import emotion2 from "../../Assets/ste.png";
 
 function Projects() {
   return (
@@ -35,6 +36,16 @@ function Projects() {
 of Accel Harmonic Force "
               description="The project sought to leverage FPGA-based hardware implementation to intricately model and simulate harmonic forces acting on LEO spacecraft, thereby optimizing computational precision and enhancing the spacecraft's stability and performance during missions."
               ghLink="https://github.com/Rosedivi/AttendanceSystem"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion2}
+              isBlog={false}
+              title=" Pinnacle Of Steganography Security With Fernet Encryption"
+              description="We present a secure platform using Fernet encryption and LSB steganography to ensure confidential and covert communication, with a scalable and user-friendly design for sensitive applications."
+              ghLink="https://github.com/Rosedivi"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
