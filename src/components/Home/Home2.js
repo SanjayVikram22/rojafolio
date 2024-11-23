@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/2.jpg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -47,7 +47,12 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid rounded-circle"
+                alt="avatar"
+                style={{ width: "100%", height: "auto", borderRadius: "50%" }}
+              />
             </Tilt>
           </Col>
         </Row>
